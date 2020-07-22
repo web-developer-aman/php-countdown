@@ -1,0 +1,225 @@
+body{
+	background: url(img/bg2.jpg);
+	padding: 0;
+	margin: 0;
+	background-position: fixed;
+	background-size: cover;
+	
+	left: 0;
+	right: 0;
+	color: white;
+
+}
+.container{
+	width: 80%;
+	display: block;
+	background: rgb(0, 0, 0, 0.6);
+	margin: 5% 0;
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow: hidden;
+	display: flex;
+
+}
+.left_side_bar{
+	float: left;
+	min-height: 600px;
+	background-color: rgb(0, 0, 0, 0.6);
+	width: 20%;
+	color: #fff;
+	
+	
+	
+
+
+}
+.left_side_bar ul{
+	padding: 0;
+
+}
+.left_side_bar ul li{
+	list-style: none;
+	
+	color: #fff;
+	
+	
+}
+.left_side_bar ul a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	display: block;
+	font-size: 16px;
+	
+}
+.left_side_bar ul a:hover{
+	color: red;
+	background: #111;
+	
+}
+.right_side_bar{
+	width: 80%;
+	overflow: hidden;
+	min-height: 600px;
+	display: block;
+	background: rgb(0, 0, 0, 0.8);
+
+}
+.users_table a{
+	margin-top: 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.users_table a:hover{
+	color: red;
+	
+}
+.email_table a{
+	margin-top: 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.email_table a:hover{
+	color: red;
+}
+.mail h1{
+	margin-bottom: 50px;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+	color: rgba(255, 0, 0, 1);
+}
+
+.users_table{
+	width: 100%;
+	background: rgb(0, 0, 0, 0.8);
+	padding: 20px 10px;
+	overflow: hidden;
+	display: block;
+}
+.users_table h1{
+	margin-bottom: 50px;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+	color: rgba(255, 0, 0, 1);
+}
+
+table td{
+	padding: 15px 20px;
+	border-bottom: 1px solid black;
+	font-size: 16px;
+	text-align: center;
+
+}
+table th{
+	color: white;
+	padding: 10px 20px;
+	border-bottom: 2px solid rgba(255, 0, 0, 0.8);
+	text-align: center;
+
+	
+}
+.mail h1{
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+	color: rgba(255, 0, 0, 1);
+
+
+}
+.mail_form {
+    margin-top: 30px;
+    width: 80%;
+}
+.mail input[type='text']{
+	background: transparent;
+	border: 1px solid red;
+	padding: 15px 15px 10px;
+	width: 100%;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	outline-color: white;
+
+}
+.mail textarea{
+	width: 100%;
+	background: transparent;
+	border: 1px solid red;
+	font-size: 16px;
+	border-radius: 5px;
+	color: white;
+	padding: 15px 15px 10px;
+}
+.mail input[type='text']:focus{
+
+	border-color: #fff;
+	outline: none;
+}
+.mail textarea:focus{
+	border-color: #fff;
+	outline: none;
+}
+.mail {
+    width: 80%;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.mail form input[type=submit]{
+	width: 30%;
+	background: rgba(255, 0, 0, 1);
+	border: 1px solid red;
+	color: white;
+	cursor: pointer;
+	font-size: 17px;
+	padding: 14px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	float: right;
+	outline: none;
+
+}
+.users_table form input[type=submit]{
+	width: 10%;
+	background: rgba(255, 0, 0, 1);
+	border: 1px solid red;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 14px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	outline: none;
+	
+
+}
+.users_table form input[type=submit]:hover{
+	background-color: rgba(255, 0, 0, 0.8);
+}
+.mail form input[type=submit]:hover{
+	background-color: rgba(255, 0, 0, 0.8);
+}
+.mail form input[type=file]{
+	padding: 10px 10px;
+	border: 1px solid red;
+	background: transparent;
+
+}
+.error{
+	color: #FE0604;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+.tox tox-tinymce{
+	background: transparent;
+}
+ table tr:nth-child(2n+0){
+	background: #222;
+}
